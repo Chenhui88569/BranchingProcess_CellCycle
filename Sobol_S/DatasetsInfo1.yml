@@ -1,0 +1,23 @@
+# Model 1 info
+Model: 1
+# info of model without treatment
+CI_DIR:  CI_CellCycle_Model1_2023_06_13_14_59/CI_untreated_1.mat
+data_untreated:  0.397791164658634	0.350200803212851	0.252008032128514
+Para_untreated: 10.1563816036989  11.0674534469914  10.1470681258926  1.79695482015536 
+untreated_plot_endpoint:  200
+MCMC_sample_untreated_DIR :  Output_CellCycle_Model1_2023_04_05_09_43/Para_untreated_1.mat
+burnoff_portion_untreated:   0.2884
+para_label_untreated:  $\hat{\alpha}_1$    $\hat{\alpha}_2$ 	 $\hat{\alpha}_3$ 	 $\hat{\beta}_0$ 	 $\theta_{1}$ 	 $\theta_{2}$ 	 $\theta_{3}$ 
+
+
+# info of model with treatment
+clinical_time: 160
+data_treated_dir: data_treated_model_1.mat
+MCMC_sample_treated_DIR: Output_CellCycle_Model1_2023_06_02_13_36
+burnoff_portion_treated:  0.25
+TreatmentEffectOnPhases: 3
+StepSize: 0.1
+num_gen: 25
+para_label_treated:  "$q_1$"	"$q_2$"	"$q_3$"	"$m_{d,UR}^{max}$"	"$m_{d,FR}^{max}$"	"$m_{d,MS}^{max}$"	"$m_{d,UR,G1}^{max}$"	"$\tilde{\lambda}_{d,max}$"	"$\tilde{\lambda}_{G2arrest,UR, max}$"	"$\tilde{\lambda}_{G2arrest,FR, max}$"	"$\tilde{\lambda}_{G2arrest,MS, max}$"	"$\tilde{\lambda}_{G1arrest, max}$"	"$\tilde{b}$"	"$\tilde{b}_d$"	"$n_{G2M}$"	"$EC_{50,d}$"	"$EC_{50}$"	"$theta_1$"	"$theta_2$"	"$theta_3$"
+States_convergence_RemainingTimeDist: Dtx_States_convergence_RemainingTimeDist.mat
+Dose: 3
