@@ -1,0 +1,22 @@
+# Model 42 info
+Model: 42
+# info of model without treatment
+CI_DIR:  CI_CellCycle_Model4_2023_05_19_18_18/CI_untreated_4.mat
+data_untreated:  0.404032258064515	0.310483870967742	0.285483870967743
+untreated_plot_endpoint:  200
+MCMC_sample_untreated_DIR :  Output_CellCycle_Model4_2023_05_15_19_53/Para_untreated_4.mat
+burnoff_portion_untreated:   0.45
+para_label_untreated:  "$\hat{\alpha}_1$"  "$\hat{\alpha}_2$"	"$\hat{\alpha}_3$"	"$\hat{\beta}_0$"	"$\theta_{1}$"	"$\theta_{2}$"	"$\theta_{3}$"
+Para_untreated:  9.21454236416973 8.94574200142664 10.0165880566187 1.82363352529115
+
+# info of model with treatment
+clinical_time: 160
+data_treated_dir:  data_treated_model_42.mat
+burnoff_portion_treated:  0.82
+TreatmentEffectOnPhases: 2
+StepSize: 0.1
+num_gen: 25
+MCMC_sample_treated_DIR:  MCMC_Samples/CellCycle_Model42_2023_06_11_21_05 (8)
+para_label_treated:  "$q_{1, S}$"	"$q_{2, S}$"	"$q_{3, S}$" "$m_{d,FR, S}^{max}$"	"$m_{d,UR, S}^{max}$" "$m_{d,UR,G2M}^{max}$"	"$m_{d,G1,block}$"	"$\tilde{\lambda}_{d,max}$"	"$\tilde{\lambda}_{Sarrest, UR, max}$"	"$\tilde{\lambda}_{Sarrest, FR, max}$"	"$\tilde{\lambda}_{G2Marrest, max}$"	"$\tilde{b}$"	"$\tilde{b}_d$"	"$n_{S}$"	"$EC_{50,d, S}$"	"$EC_{50, S}$"	"$\theta_1"	"$\theta_2"	"$\theta_3"
+States_convergence_RemainingTimeDist: Pac_States_convergence_RemainingTimeDist.mat
+Dose: 641

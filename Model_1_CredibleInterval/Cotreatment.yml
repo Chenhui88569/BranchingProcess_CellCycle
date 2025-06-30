@@ -1,0 +1,6 @@
+TreatmentEffectOnPhases_1thDrug: 0
+TreatmentEffectOnPhases_2thDrug: 0
+num_RroundsOfTreatedcells:3
+num_GenOfHealthycells:2
+t_span_AfterTreatment_MatT: 72
+CotreatmentFlag: 1
