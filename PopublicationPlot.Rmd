@@ -144,9 +144,12 @@ data_weibull <- data.frame(
     each = sample_size
   ),
   Value = c(
-    rweibull(sample_size, shape =   2.391054, scale = 30.694651 ),
-    rweibull(sample_size, shape =   2.391054, scale = 75.812987  ),
-    rweibull(sample_size, shape =  2.391054 , scale = 55.019198 ),
+    #rweibull(sample_size, shape =   2.391054, scale = 30.694651 ),
+    #rweibull(sample_size, shape =   2.391054, scale = 75.812987  ),
+    #rweibull(sample_size, shape =  2.391054 , scale = 55.019198 ),
+    rweibull(sample_size, shape =   21.963627, scale = 19.870187 ),
+    rweibull(sample_size, shape =   21.963627, scale = 5.596279  ),
+    rweibull(sample_size, shape =  21.963627 , scale = 4.699444 ),
     sample_data1,
     sample_data2,
     rgamma(sample_size, shape = 0.5484 , scale = 9.21454236416973) ,
@@ -232,9 +235,12 @@ data_weibull <- data.frame(
     each = sample_size
   ),
   Value = c(
-    rweibull(sample_size, shape = 12.685597, scale = 14.957078),
-    rweibull(sample_size, shape = 12.685597, scale = 46.111503 ),
-    rweibull(sample_size, shape = 12.685597, scale =   83.027298 ),
+    #rweibull(sample_size, shape = 12.685597, scale = 14.957078),
+    #rweibull(sample_size, shape = 12.685597, scale = 46.111503 ),
+    #rweibull(sample_size, shape = 12.685597, scale =   83.027298 ),
+    rweibull(sample_size, shape = 14.76384, scale = 15.346355),
+    rweibull(sample_size, shape = 14.76384, scale = 43.828203 ),
+    rweibull(sample_size, shape = 14.76384, scale = 76.736729 ),
     sample_data1,
     rgamma(sample_size, shape =  0.5484, scale = 9.214542364169735),
     rgamma(sample_size, shape =  0.5484, scale = 8.94574200142664),
@@ -292,8 +298,8 @@ ggsave("gem_ridgeline_plot.png", width = 11, height = 8, dpi = 2000, bg = "white
 ```{r}
 library(readxl)
 # Specify the Excel file path
-excel_file <- "Pac_data.xls"
-Model_Index = 41
+excel_file <- "DTX_data.xls"
+Model_Index = 1
 
 # List all sheet names in the Excel file
 sheet_names <- excel_sheets(excel_file)
