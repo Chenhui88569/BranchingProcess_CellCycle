@@ -1,0 +1,16 @@
+# Model 1 info
+Model: 41
+# info of model without treatment
+CI_DIR:  CI_CellCycle_Model4_2023_05_19_18_18/CI_untreated_4.mat
+data_untreated:  0.404032258064515	0.310483870967742	0.285483870967743
+untreated_plot_endpoint:  200
+MCMC_sample_untreated_DIR :  Output_CellCycle_Model4_2023_05_15_19_53/Para_untreated_4.mat
+burnoff_portion_untreated:   0.45
+para_label_untreated:  "$\hat{\alpha}_1$"  "$\hat{\alpha}_2$"	"$\hat{\alpha}_3$"	"$\hat{\beta}_0$"	"$\theta_{1}$"	"$\theta_{2}$"	"$\theta_{3}$"
+
+# info of model with treatment
+data_treated:  39.819277108433674      35.060240963855364    25.240963855421647
+treated_plot_endpoint:  200
+MCMC_sample_treated_DIR:  Output_CellCycle_Model1_2023_04_05_09_43/Para_untreated_1.mat
+burnoff_portion_treated:   0.2884
+para_label_treated:  "$\hat{\alpha}_1$"	"$\hat{\alpha}_2$"	"$\hat{\alpha}_3$"	"$\hat{\beta}_0$"	"$\theta_{1}$"	"$\theta_{2}$"	"$\theta_{3}$"

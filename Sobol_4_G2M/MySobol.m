@@ -1,5 +1,4 @@
 % Global sensitivity analysis
-% Model output is the kinectics of the tumor proliferating cells + damaging cells(100 mg/kg weekly )
 % step1. choose the most influential parameter
 % step2. Variance-based sensitivity analysis
 % purturb the parameter with the range (determine the range)
