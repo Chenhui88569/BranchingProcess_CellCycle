@@ -1,6 +1,4 @@
 % Global sensitivity analysis
-% step1. choose the most influential parameter
-% step2. Variance-based sensitivity analysis
 % purturb the parameter with the range (determine the range)
 % create 1000 parameter sets using Latin hypercube sample
 close all
