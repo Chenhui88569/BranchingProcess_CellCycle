@@ -10,7 +10,9 @@ The repository includes source code for the branching-process cell-cycle models,
 ## Software Requirements
 MATLAB
 - MATLAB R2021a or later
+
 R
+- Required only for selected visualization and reporting scripts
 
 ## Data Availability 
 All processed data and simulation outputs required to reproduce the manuscript’s results are included directly within this repository.\
