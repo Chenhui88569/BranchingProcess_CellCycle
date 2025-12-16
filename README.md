@@ -2,8 +2,7 @@
 
 This repository contains all computational materials required to reproduce the analyses presented in:
 
-Ma C, Gurkan-Cavusoglu E (2025).Probabilistic modeling of cell cycle dynamics in response to cell cycle targeting chemotherapy drugs to guide treatment strategies. PLOS Computational Biology.
-(Full citation will be provided upon publication.)
+Ma C, Gurkan-Cavusoglu E (2025) Probabilistic modeling of cell cycle dynamics in response to cell cycle targeting chemotherapy drugs to guide treatment strategies. PLoS Comput Biol 21(12): e1013790. https://doi.org/10.1371/journal.pcbi.1013790
 
 The repository includes source code for the branching-process cell-cycle models, Bayesian calibration procedures, posterior predictive assessments, and global sensitivity analyses.
 
